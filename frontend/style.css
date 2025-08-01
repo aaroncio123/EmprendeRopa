@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+header{
+    margin-bottom: 3vh;
+}
+
+.header-items{
+    width: 100%;
+    background-color: rgb(43, 87, 219);
+    padding: 10px;
+}
+
+.list-contain{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    gap: 5vh;
+    list-style: none;
+}
+
+.list-item a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.list-item a:hover{
+    color: #fff9f9ab;
+}
+
+.main-content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.contenedor-scroll {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px;
+  scroll-behavior: smooth;
+  margin: auto;
+}
+
+.item {
+  flex: 0 0 auto; 
+  width: 300px;
+  min-height: 350px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.tallas-ropa {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.talla a {
+  padding: 5px 10px;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+}
+
+.talla a:hover {
+  background-color: #ddd;
+  transition: 0.6s;
+}
+
+.form-contain{
+  border: 1px solid #aaa;
+  width: 30%;
+  height: auto;
+  text-align: center;
+  justify-self: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.form-group{
+  padding: 10px;
+  margin: 20px;
+  text-align: left;
+}
+
+.form-group label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input{
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.form-group a{
+  color: #195ed5;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.enlaces{
+  text-align: left;
+  padding: 0;
+}
+
+.boton{
+  background-color: #195ed5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    color: #f1f1f1f8;
+    text-align: left;
+    padding: 20px;
+}
